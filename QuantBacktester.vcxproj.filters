@@ -9,52 +9,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="data">
-      <UniqueIdentifier>{38cabe78-65d1-4e31-b962-073d53efa69e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{691f108e-9ae8-4d35-9415-9f7c00ef19d4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{04f43091-3ccc-43ca-8f65-2d07c20919c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{617b0010-111d-46bb-89de-41e06180ac4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ffa4b79e-3bd2-4a37-a4bf-e36d28d6846d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="QuantBacktester.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="DataLoader.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Backtester.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Utils.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DataLoader.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="Strategy.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="Backtester.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="Utils.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="apple_5yr_one.csv">
-      <Filter>data</Filter>
-    </None>
     <None Include="README.md" />
     <None Include=".gitignore" />
+    <None Include="data\apple_5yr_one.csv">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\QuantBacktester.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Backtester.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Strategy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Backtester.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataLoader.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Strategy.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
