@@ -1,11 +1,39 @@
-# Ignore build artifacts
+# Build directories
 /build/
+/Debug/
+/Release/
+
+# Executables and object files
 *.exe
+*.dll
+*.lib
 *.obj
 *.o
+*.pdb
+*.idb
+*.ipdb
+
+# Logs and temporary files
 *.log
+*.tmp
+*.temp
+
+# Visual Studio user files
 *.user
 *.suo
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
 
-# Ignore VS folders
+# VS Code settings
+.vscode/
+
+# VS folders
 .vs/
+
+# Ignore binaries in root
+*.app
+*.out
+
+# Ignore Mac / Linux system files if collaborating
+.DS_Store
