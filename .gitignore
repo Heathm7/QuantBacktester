@@ -1,0 +1,11 @@
+# Ignore build artifacts
+/build/
+*.exe
+*.obj
+*.o
+*.log
+*.user
+*.suo
+
+# Ignore VS folders
+.vs/
