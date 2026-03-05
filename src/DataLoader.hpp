@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <map>
 
 //Create a struct to hold one row of data
 struct PriceData {
@@ -15,10 +16,10 @@ struct PriceData {
 class DataLoader {
 public: 
 	//Create constructor
-	DataLoader(const std::string& filename);
-	std::vector<PriceData> getData() const;
+	DataLoader(const std::string& folderPath);
+	const std::map<std::string, std::vector<PriceData>>& getAllData() const;
 
 private:
-	std::vector<PriceData> data;
-	void loadCSV(const std::string& filename);
+	std::map<std::string, std::vector<PriceData>> allData;
+	void loadCSV(const std::string& filename, const std::string& ticker);
 };
